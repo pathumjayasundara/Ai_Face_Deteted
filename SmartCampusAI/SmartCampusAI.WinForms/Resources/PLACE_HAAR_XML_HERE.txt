@@ -1,0 +1,12 @@
+Place these two files in this Resources/ folder:
+
+1. haarcascade_frontalface_default.xml  (REQUIRED)
+2. haarcascade_eye.xml                  (optional)
+
+Download from OpenCV official GitHub:
+https://github.com/opencv/opencv/raw/master/data/haarcascades/haarcascade_frontalface_default.xml
+https://github.com/opencv/opencv/raw/master/data/haarcascades/haarcascade_eye.xml
+
+OR run this PowerShell command:
+  Invoke-WebRequest -Uri "https://github.com/opencv/opencv/raw/master/data/haarcascades/haarcascade_frontalface_default.xml" -OutFile "haarcascade_frontalface_default.xml"
+  Invoke-WebRequest -Uri "https://github.com/opencv/opencv/raw/master/data/haarcascades/haarcascade_eye.xml" -OutFile "haarcascade_eye.xml"
